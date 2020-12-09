@@ -7,7 +7,7 @@ The **myrobot** lab part of RoboND Gazebo Basics lesson. The purpose of this lab
 ```
     .myrobot                           # RoboND Project1: Build My World 
     ├── images                         # Code output image                   
-    │   ├── world.png
+    │   ├── output.png
     ├── model                          # Model files of the two-wheeled robot
     │   ├── Building
     │   │   ├── model.config
@@ -48,11 +48,6 @@ $ make
 #### Step 4 Add the library path to the Gazebo plugin path  
 ```sh
 $ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/myrobot/build
-```
-Or
-```sh
-$ cd /home/workspace/myrobot/
-$ ./export.sh  
 ```
 
 #### Step 5 Run the Gazebo World file  
