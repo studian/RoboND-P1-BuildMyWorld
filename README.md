@@ -7,20 +7,19 @@ The **myrobot** lab part of RoboND Gazebo Basics lesson. The purpose of this lab
 ```
     .myrobot                           # RoboND Project1: Build My World 
     ├── images                         # Code output image                   
-    │   ├── output.png
+    │   └── output.png
     ├── model                          # Model files of the two-wheeled robot
     │   ├── Building
     │   │   ├── model.config
-    │   │   ├── model.sdf
+    │   │   └── model.sdf
     │   ├── myrobot
     │   │   ├── model.config
-    │   │   ├── model.sdf
+    │   │   └── model.sdf
     ├── script                         # Gazebo World plugin C++ script      
-    │   ├── welcome.cpp
+    │   └── welcome.cpp
     ├── world                          # Gazebo main World empty scene
-    │   ├── myworld
-    ├── CMakeLists.txt                 # Link libraries 
-    └──        
+    │   └── myworld
+    └── CMakeLists.txt                 # Link libraries             
 ```
 
 ### Steps to launch the simulation
